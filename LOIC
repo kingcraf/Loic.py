@@ -1,0 +1,18 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-"
+"""
+LOIC - Denial of Service Toolkit/copyright - 2021/2022 - by watisdis 
+
+You should have received a copy of the GNU General Public License along
+with LOIC; if not, write to the Free Software Foundation
+"""
+from core.main import LOIC
+
+if __name__ == "__main__":
+    app = LOIC()
+    options = app.create_options()
+    if options:
+        app.run()
+
+
+
